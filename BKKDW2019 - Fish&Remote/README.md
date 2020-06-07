@@ -7,6 +7,7 @@ if (udp.connect(IPAddress(192, 168, 1, 155), PORT_CH)) {
     Serial.println("UDP connected");
     udp.onPacket([](AsyncUDPPacket packet) {
         // ----------- do something -----------
+        // Serial.write(packet.data(), packet.length());
     }];
     udp.print("Hello Server!");
  }
