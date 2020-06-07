@@ -12,7 +12,7 @@ if (udp.connect(IPAddress(192, 168, 1, 155), PORT_CH)) {
  }
 ```
 
-ฺBroadcast string data 
+ฺSend broadcast string data 
 ```
 ss << [String];
 std::string str = ss.str();
