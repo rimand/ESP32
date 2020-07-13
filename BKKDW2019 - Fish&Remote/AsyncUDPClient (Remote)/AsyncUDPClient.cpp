@@ -11,8 +11,8 @@ using namespace std;
 
 #define PORT_CH 4448
 
-//const char* ssid     = "hacklab_2_4g";
-//const char* password = "tiwanonoffice";
+//const char* ssid     = "SSID";
+//const char* password = "PASS";
 const char* ssid     = "kmmc";
 const char* password = "matemaker";
 
